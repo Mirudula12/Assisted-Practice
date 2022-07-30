@@ -7,7 +7,7 @@ public class File1 {
 
 	public static void main(String[] args) throws IOException {
 		
-		FileOutputStream fo = new FileOutputStream("input",true);
+		FileOutputStream fo = new FileOutputStream("input");
 		if(fo!=null) {
 			System.out.println("File created and opened in write mode ");
 		}
